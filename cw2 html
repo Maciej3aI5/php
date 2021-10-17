@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang ="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Plona</title>
+	<style>
+	#wszystko
+	{
+		width:1900px;
+		height:900px;
+		
+	}
+	form
+	{
+		margin-right: auto;
+		margin-left: auto;
+		font-size:20px;
+	}
+	td
+	{
+		font-size: 20px;
+	}
+	
+	
+	</style>
+</head>
+
+<body>
+<div id="wszystko">
+	<br><br><br><br><br><br><br>
+	<form action="index2.php" method="post">
+	<center> <table cellpadding="10"><tbody> </center>
+	 <tr>
+	 <td> *Company: </td>
+	 <td> <input type="text" name="company" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> *First Name: </td>
+	 <td> <input type="text" name="first_name" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> *Last Name: </td>
+	 <td> <input type="text" name="last_name" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> *Email Address: </td>
+	 <td> <input type="email" name="email_Address" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> *Title: </td>
+	 <td> <input type="text" name="title" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> *Phone: </td>
+	 <td> <input type="text" name="phone" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> &nbsp Cancel Registration: </td>
+	 <td> <input value="Cancel Registration" type="checkbox" name="registration" style="height:20px" > </td>
+	 </tr>
+	 <tr>
+	 <td> *252 Training Session 2010: </td>
+	 <td> <select name="date" style="height:20px" required>
+		  <option value=""> --Select a date-- </option> 
+		  <option value="01.02.2010"> 01.02.2010 </option>
+		  <option value="02.02.2010"> 02.02.2010 </option>
+		  <option value="03.02.2010"> 03.02.2010 </option>
+		  <option value="04.02.2010"> 04.02.2010 </option></select></td>
+	 </tr>
+	 <tr>
+	 <td> *Job Function: </td>
+	 <td> <label> <input value="Campagain Management" type="radio" name="job" style="height:20px" required> Campagain Management </label><br>
+		  <label> <input value="CRM admininstration" type="radio" name="job" style="height:20px" required> CRM admininstration </label><br>
+		  <label> <input value="Email Deployment" type="radio" name="job" style="height:20px" required> Email Deployment </label><br>
+		  <label> <input value="Partner" type="radio" name="job" style="height:20px" required> Partner </label><br>
+		  <label> <input value="employee" type="radio" name="job" style="height:20px" required> employee </label><br></td>
+	 </tr>
+	 <tr>
+	 <td> *Dietary Requirments: </td>
+	 <td> <input type="text" name="dietary_requirments" style="height:20px" required> </td>
+	 </tr>
+	 <tr>
+	 <td> *Expectations: </td>
+	 <td> <textarea name="expectations" required></textarea> </td>
+	 </tr>
+	 <tr>
+	 <td> <button> Submit </button> </td>
+	 </tr>
+	 
+	 </tbody></table>
+	</form>
+	<table><tbody>
+	
+</div>	
+
+
+</body>	
+
+</html>
