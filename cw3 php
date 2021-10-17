@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang ="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Plona</title>
+	<style>
+	table,td
+	{
+		border: 2px solid black;
+		font-size: 20px;
+		
+	}
+	h1
+	{
+		font-size:100px;
+	}	
+	</style>
+</head>
+
+<body>
+	<center><h1> HTML FORMS </h1>
+	<table><tbody>
+ <?php
+	$a=array("Company"=>$_POST['company'],"First Name"=>$_POST['first_name'],"Last Name"=>$_POST['last_name'],"Email Address"=>$_POST['email_Address'],"Title"=>$_POST['title'],"Phone"=>$_POST['phone'],"252 Training Session 2010"=>$_POST['date'],"Job Function"=>$_POST['job'],"Dietary Requirments"=>$_POST['dietary_requirments'],"Expectations"=>$_POST['expectations']);
+	foreach($a as $b=>$c)
+	{
+		echo '<tr><td style="width: 150px">'.$b.'</td><td style="width: 600px">'.$c.'</td></tr>';
+	}	
+ 
+ ?>
+	</tbody></table></center>
+</body>
+
+</html>
